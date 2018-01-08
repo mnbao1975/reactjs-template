@@ -1,3 +1,10 @@
 {
-    "extends": "airbnb"
+    "extends": "airbnb",
+    "rules": {
+        "class-methods-use-this": "off",
+        "prefer-destructuring": "off",
+        "react/prop-types": "off",
+        "no-new": "off",
+        "comma-dangle":"off"
+    }
 }

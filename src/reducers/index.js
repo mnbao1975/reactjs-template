@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 
 const rootReducer = combineReducers({
-  key: 'an imported func',
+  state: (state = {}) => state
 });
 
 export default rootReducer;
